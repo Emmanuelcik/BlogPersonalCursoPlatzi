@@ -21,8 +21,8 @@
   }
 }
 
-    .fi:before{
-        display: inline-block;
+  .fi:before{
+  display: inline-block;
   font-family: "Flaticon";
   font-style: normal;
   font-weight: normal;
@@ -34,9 +34,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-    }
+  }
 
-    .flaticon-001-facebook:before { content: "\f100"; }
+.flaticon-001-facebook:before { content: "\f100"; }
 .flaticon-002-twitter:before { content: "\f101"; }
 .flaticon-003-whatsapp:before { content: "\f102"; }
 .flaticon-004-groupme:before { content: "\f103"; }
