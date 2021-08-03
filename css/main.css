@@ -29,6 +29,7 @@ header .header-icons-container .icons{
     width: 300px;
     height: auto;
     display: flex;
+    gap: 10px;
     justify-items: flex-end;
     align-items: center;
     justify-content: space-between;
