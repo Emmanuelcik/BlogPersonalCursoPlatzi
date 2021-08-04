@@ -62,3 +62,36 @@ nav .profile-link a{
     color: black;
     border-bottom: 1px solid black;
 }
+.bkg-img-principal {
+    background-image: url("/assets/Cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.bkg-img-principal .main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bkg-img-principal .main-text h1{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.bkg-img-principal .main-button-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.bkg-img-principal .main-button-section a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #47cfac;
+    padding: 10px 20px;
+    
+}
